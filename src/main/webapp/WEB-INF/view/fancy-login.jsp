@@ -44,7 +44,7 @@
 					            <div>
 									
 									<!-- check for login error -->
-									<c:if test="${param.error != null}"
+									<c:if test="${param.error != null}">
 										<div class="alert alert-danger col-xs-offset-1 col-xs-10">
 											Invalid username and password.
 										</div>
